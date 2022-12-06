@@ -1,0 +1,33 @@
+/*barra horizontal*/
+ul{
+    background: rgb(224, 222, 222);
+    text-align: left;
+}
+
+li{
+    display: inline-block;
+    margin: 0;
+    padding: 12px;
+    color: white;
+}
+
+li:hover{
+    background-color: rgb(65, 65, 65);;
+}
+#ecoinventos{
+    width: 400;
+    height: 80;
+    background-color: aqua;
+    float: left;
+    margin: 10px;
+}
+
+div#Eco{
+    background-color: rgb(233, 233, 233);
+    width: 100vw;
+    height: 83vh;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+
