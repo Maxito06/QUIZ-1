@@ -1,33 +1,92 @@
-/*barra horizontal*/
-ul{
-    background: rgb(224, 222, 222);
-    text-align: left;
-}
-
-li{
-    display: inline-block;
+*{
     margin: 0;
-    padding: 12px;
-    color: white;
-}
+} 
 
-li:hover{
-    background-color: rgb(65, 65, 65);;
-}
-#ecoinventos{
-    width: 400;
-    height: 80;
-    background-color: aqua;
-    float: left;
-    margin: 10px;
-}
-
-div#Eco{
-    background-color: rgb(233, 233, 233);
-    width: 100vw;
-    height: 83vh;
-    float: left;
-    margin-right: 10px;
+ul {
+    background-color: #afa8a8;
     text-align: center;
+    padding: 0px;
 }
 
+li {
+    margin: 0px;
+    padding: 4vh 0vw;
+    display: inline-block;
+}
+
+li:hover {
+    background-color: #323233;
+}
+
+a {
+   
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    padding: 4vh 2vw;
+}
+
+h2 {
+    padding: 5vh 5vw 8vh;
+    color: #000000;
+}
+
+h3 {
+    font-size: medium;
+    color: #000000;
+    text-align: center;
+    padding: 1vh 1vw;
+}
+
+p {
+    text-align: center;
+    color:rgb(0, 0, 0);
+    padding: 1vh 1vw;
+}
+
+
+#tabla {
+    margin:auto;
+    border-collapse: collapse;
+}
+
+
+.div1 {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.link {
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    padding: 4vh 2vw;
+}
+
+.editar {
+    text-decoration: none;
+    margin: 0vh 0.5vw;
+    padding: 1vh 1vw;
+    color: #000000;
+    font-size: medium;
+    background-color: #f1f3f5;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.editar:hover {
+    background-color: #cde2fc;
+}
+
+.F1 {
+    background-color:  #afa8a8;
+}
+
+
+#tabla tr {
+    border: 2px solid #000000;
+}
+
+#tabla td {
+    padding: 1vh 1vw;   
+}

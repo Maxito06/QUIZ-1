@@ -1,32 +1,82 @@
-/*barra horizontal*/
+*{
+    margin: 0;
+}
 ul{
-    background: rgb(224, 222, 222);
-    text-align: left;
+    background: #afa8a8;
+    text-align: center;
+    padding: 0px;
 }
 
 li{
     display: inline-block;
-    margin: 0;
-    padding: 12px;
+    margin: 0px;
+    padding: 4vh 0vh;
     color: white;
 }
 
 li:hover{
-    background-color: rgb(65, 65, 65);;
-}
-#ecoinventos{
-    width: 400;
-    height: 80;
-    background-color: aqua;
-    float: left;
-    margin: 10px;
+    background-color: #323233;
 }
 
-div#Eco{
-    background-color: rgb(233, 233, 233);
-    width: 100vw;
-    height: 83vh;
-    float: left;
-    margin-right: 10px;
+a {
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    padding: 4vh 2vw;
+}
+
+h2{
+    color: #000000;
+    padding:  5vh;
+}
+
+input {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 1vh 1vw;
+
+}
+
+
+.div1 {
     text-align: center;
+    margin-top: 3vh;
+}
+
+
+.div2 {
+    background-color: #E0E1DC;
+    margin: 3vh 32vw;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0041da;
+    text-align: center;
+}
+
+.boton {
+    
+    margin-top: 3vh;
+    margin-bottom: 1.5vh;
+    padding: 1vh 3vw;
+    font-size: medium;
+    background-color: #bec4cc;
+    border: 2px solid #255e31;
+    border-radius: 5px;
+    
+}
+
+.boton:hover {
+        background-color: #475B74;
+}
+
+
+.div2 table td{
+    text-align: left;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+
+.div2 label{
+    margin: 0vh 2.5vw;
+    color: #1D2538;
 }

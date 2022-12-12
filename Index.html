@@ -1,47 +1,48 @@
 <!DOCTYPE html>
-<html>
-    <header>
-        <link rel="stylesheet" href="estilo.css">
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="estilo.css" type="text/css" media="screen">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pagina Principal</title>
+        <title>PAGINA PRINCIPAL</title>
+
+          <ul>
+              <li><a href="Nuevo cliente.html">NUEVO CLIENTE</a></li>
+              <li><a href="Cliente detalle.html">CLIENTE DETALLE</a></li>
+          </ul>
+
+    </head>
         <body>
-     <!--NAVBAR-->
-     <nav>
-        <ul>
-            <li><a href="Nuevo cliente.html">Nuevo cliente</a></li>
-            <li><a href="Cliente detalle.html">Cliente detalle</a></li>
-        </ul>
-        </nav>
-        <div id="Eco">
-            <h1>Lista de Clientes</h1>
+
+        <div class="div1">
+            <h2>LISTA DE CLIENTES</h2>
             <table id="Tabla">
 
-                <tr>
+                <tr class="F1">
               
-                  <th>DOCUMENTOS</th>
+                  <td><h3>DOCUMENTOS</h3></td>
               
-                  <th>NOMBRES</th>
+                  <td><h3>NOMBRES</h3></td>
               
-                  <th>APELLIDOS</th>
+                  <td><h3>APELLIDOS</h3></td>
 
-                  <th>ACCIONES</th>
+                  <td><h3>ACCIONES</h3></td>
               
                 </tr>
               
                 <tr>
               
-                  <td>10887282</td>
+                  <td><p>10887282</p></td>
               
-                  <td>CAMILO</td>
+                  <td><p>CAMILO</p></td>
               
-                  <td>PLAZA</td>
+                  <td><p>PLAZA</p></td>
 
-                  <td>
-                    <button>DETALLES</button>
-                    <button>ELIMINAR</button>
-                  </td>
+                <td class="tdboton">
+                    <a id="detalle" class="editar" href = "clientedetalle.html">DETALLES</a>
+                    <a class="editar">ELIMINAR</a>
+                </td>
                   
               
                 </tr>
